@@ -1,0 +1,22 @@
+CREATE TABLE Gwen_bakery (id integer primary key,name text,quantity integer, cost integer, number_sold integer); 
+INSERT INTO Gwen_bakery VALUES (1, "Chocolate_Cupcakes",33,1, 14);
+INSERT INTO Gwen_bakery VALUES (2, "Cakes",24,25,20);
+INSERT INTO Gwen_bakery VALUES (3, "cookies",100,1,75);
+INSERT INTO Gwen_bakery VALUES (4,"scones", 45,1,30);
+INSERT INTO Gwen_bakery VALUES (5, "eclairs", 100,1,60);
+INSERT INTO Gwen_bakery VALUES (6,"coffee", 100,1,100);
+INSERT INTO Gwen_bakery VALUES (7,"vanilla_cupcakes",75,1,60);
+INSERT INTO Gwen_bakery values (8,"swiss_cupcakes",75,1,50);
+INSERT INTO Gwen_bakery values (9,"peanut_butter_cupcakes",75,1,40);
+INSERT INTO Gwen_bakery values(10,"coffee_cupcakes", 75,2,40);
+insert into Gwen_bakery values (11,"smores_cupcakes",75,2,12);
+insert into Gwen_bakery values (12,"cake_pops",100,1,75);
+insert into Gwen_bakery values (13,"bread", 40,5,30);
+insert into Gwen_bakery values (14,"tres_leches", 10,12,6);
+insert into Gwen_bakery values (15,"muffins", 40,2,20);
+
+SELECT * from Gwen_bakery;
+SELECT * FROM Gwen_bakery ORDER BY cost asc;
+select MAX(number_sold) from Gwen_bakery order by number_sold asc;
+
+
